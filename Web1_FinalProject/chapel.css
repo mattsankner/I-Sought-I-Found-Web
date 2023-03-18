@@ -1,0 +1,389 @@
+html, body {
+	margin: 0;
+
+}	
+
+/* header*/ 
+
+ header{
+ 	background-color: white ;
+ }
+
+ header h1{
+ 	margin-left: 110px;
+ 	padding-top: 15px;
+ 	float: left;
+ 	font-size: 30px;
+ 	color: navy;
+ 	font-family: script;
+ }
+
+#bannerpic{
+
+ 	width:  280px;
+ 	height: 110px;
+
+ }
+header h3{
+	float: right;
+ 	font-size: 22px;
+ 	color: navy;
+ 	font-family: script;
+ 	margin-right: 70px;
+ 	padding-top: 15px;
+}
+
+
+/* Navbar container */
+/* Links inside the navbar */
+
+
+nav {
+	
+	background-color: navy;
+	color: white;
+	padding: 5px;
+	overflow: hidden;
+	width: 100%;
+
+
+}
+
+nav a {
+
+	color: white;
+	text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown{
+  overflow: hidden;
+    display: inline-block;
+  vertical-align: middle;
+}
+
+.dropdown2{
+  overflow: hidden;
+  display: inline-block;
+
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  margin: auto;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+    vertical-align: middle;
+}
+
+.dropdown2 .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  margin: auto;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+    vertical-align: middle;
+ }
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding-right:  5px;
+  padding-left: 5px;
+  float: none;
+  background-color: #f9f9f9;
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+/*hover*/
+
+nav a:hover, .dropdown:hover .dropbtn {
+  background-color: saddlebrown;
+  padding-right: none;
+}
+
+.row2 .col4 a:hover{
+ background-color: tan;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: saddlebrown;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content {
+  display: block;
+
+}
+
+
+/* main img */
+
+.mainimg {
+  position: relative;
+  text-align: center;
+  align-content: center;
+  color: saddlebrown;
+  font-size: 27px;
+  font-family: cursive;
+}
+
+.mainimg .textoverlap{
+	position: absolute;
+	top:  16%;
+	bottom: 84%;
+	left: 7%;
+
+}
+
+/* row 1 */
+
+.row1{	 
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.color{
+	background-color: saddlebrown;
+	color: white;
+	font-family: cursive;
+	font-size: 30px;
+}
+button.color:hover{
+	background-color: navy;
+}
+
+}
+.row1 .col h2{
+	text-align: center;
+	color: navy;
+	font-size: 30px;
+
+}
+
+.row1 .col2{
+	float: left;
+	width: 20%;
+	padding-top: 400px;
+	text-align: center;
+}
+
+
+.row1 .col{
+	float: left;
+	width: 60%;
+text-align: center;
+}
+
+
+
+.row1:after, .row3:after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+
+/* ministry page css */
+
+/* ministry main img */
+
+.ministryimg {
+	padding-bottom: none;
+  position: relative;
+  text-align: center;
+  align-content: center;
+  color: navy;
+  font-size: 60px;
+  font-family: cursive;
+  overflow: none;
+}
+
+.ministryimg .textoverlap{
+	position: absolute;
+	top:  20%;
+	bottom: 84%;
+	left: 50%;
+}
+
+/* ministry row2 and 3, their images, headers, and divs */
+
+.row2 .col4 img{
+	width: 60%;
+	height: 90px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+.row3 .col4 img{
+	
+	width: 60%;
+	height: 90px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+.row2{
+	
+	width: 100%;
+	background-color: tan;
+}
+
+.row2 .col4{
+	align-content: center;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 2%;
+	float: left;
+	width: 25%;
+	color: navy;
+	border: saddlebrown;
+	border-style: solid;
+	border-width: 10px;
+	box-sizing: border-box;
+	border-radius: 15%;
+	height: 100px;
+	margin-bottom: 50px;
+	min-height: 775px;
+	background-color: white;
+}
+
+
+
+.col4 h3{
+
+padding-left: 65px;
+padding-right: 0px	;
+}
+
+/*padding between floats */
+
+.padministry{
+
+padding-left: 10px;
+padding-right:10px;
+text-align: center;
+padding-bottom:  ;
+}
+
+
+.row3 .col4 h3 a{
+font-size: 40px;
+text-align: center;
+text-decoration: none;
+color: navy;
+}
+
+.row2 .col4 h3 a{
+font-size: 40px;
+text-align: center;
+text-decoration: none;
+color: navy;
+}
+
+.col4 h3 a: hover{
+background-color: gray;
+
+	}
+
+.col4 p{
+	font-size: 20px;
+} 
+
+
+/* Start of Testimony page */
+/* Main header, followed by paragraph headers */
+
+.Test h1{
+	color: saddlebrown;
+	text-align: center;
+
+}
+.Test h3{
+	color: saddlebrown;
+	text-align: left;
+	margin-left: 20px;
+	font-size: 27px;
+}
+
+/* Paragraphs 1, 2, 3 */
+
+.one{
+	color: saddlebrown;
+
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 17px;
+	font-family: cursive;
+	width: 30%;
+
+}
+
+.two{
+	color: saddlebrown;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 17px;
+	font-family: cursive;
+	width: 30%;
+;
+}
+
+.three{
+	color: saddlebrown;
+	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 17px;
+	font-family: cursive;
+	width: 30%;
+}
+
+/* reused footer throughout */
+
+footer{
+	text-align: center;
+	background-color: navy;
+	color: white;
+	padding: 10px;
+	width: 100%;
+	float: left;
+}
+
+
+
